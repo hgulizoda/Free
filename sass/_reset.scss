@@ -27,6 +27,16 @@ html {
         color: $black-900;
         padding: 2.3rem 4.7rem;
         font-size: 1.8rem;
+
+        &.blue {
+          background-color: $primary-blue;
+          font-size: 2.6rem;
+          color: $primary-white;
+          height: 7.1rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
       }
     }
     h1 {
